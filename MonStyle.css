@@ -7,7 +7,7 @@ and open the template in the editor.
     Created on : 16 nov. 2023, 11:50:36
     Author     : mati.raveneau
 */
-h1 {
+#titre {
     font-size: 20px;
     align-text:center;
     color:red;
