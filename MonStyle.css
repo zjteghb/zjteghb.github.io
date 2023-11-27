@@ -9,4 +9,7 @@ and open the template in the editor.
 */
 h1 {
     font-size: 20px;
+    align-text:center;
+    color:red;
+    border-bottom: 2px solid red;
 }
