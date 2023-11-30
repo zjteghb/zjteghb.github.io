@@ -1,7 +1,8 @@
-body{
+BODY{
   background:black;
 }
 h1{
   color:white;
   font-family:fantasy;
+  text-align:center;
 }
