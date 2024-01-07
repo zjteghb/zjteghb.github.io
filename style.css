@@ -1,8 +1,201 @@
-BODY{
-  background:black;
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Bebas+Neue&display=swap');
+body {
+   font-family: 'advent pro',sans-serif;
+   padding:0;
+   margin-left:0;
 }
-h1{
-  color:white;
-  font-family:fantasy;
-  text-align:center;
+ul{
+    padding:0;
+    margin:0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2em;
+}
+h1 {
+    font-size: 6em;
+    text-align:center;
+    font-family: bebas neue;
+    color: antiquewhite;
+    margin-top: 100px;
+    text-shadow: 5px 11px 1px orange;
+}
+.premiertrait {
+    height: 2px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #fffae1;
+}
+.soustitre {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 3px 3px 1px orange;
+}
+.présentation {
+    background-color: #fffae1;
+    padding: 10px 0px 100px 0px; 
+}
+h3 {
+    padding: 5px 10px;
+}
+p {
+    padding: 5px 10px;
+}
+/*********************************index**********************************/
+a {
+    text-decoration: none;
+    color: black;
+}
+nav {
+    overflow: hiden;
+    background-color: #fffae1;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+header li a {
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'bebas neue';
+    font-weight: bold;
+    float: left;
+}
+#imagepricipale {
+    padding-top: 60px;
+    background: url(image/font.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+    
+}
+
+#textintro {
+    padding: 20px 20%;
+}
+#prestation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesprestation h4 {
+    font-family: 'bebas neue';
+    text-align: center;
+    font-size: 1.8em;
+    margin:15px;
+    font-weight: 300;
+}
+.imagesprestation img {
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+    border-radius: 10px;
+}
+.imagesprestation img:hover{
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+#autresport {
+    height: 1400px;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+}
+#autresport h2 {
+    padding-top: 60px;
+}
+#flag {
+    background: url(image/flag.jpg);
+}
+#cheerleading {
+    background: url(image/cheer.jpg);
+    
+}
+#autresport li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550px;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#autresport p {
+    height: 45px;
+    width: 235px;
+    background-color: #01df74;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+#cheerleading p {
+    float: left;
+    background-color: cyan;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0 1px rgba(15,154,156,1); 
+}
+#autresport #cheerleading {
+    float: right;
+}
+/*********************************rencontre****************************/
+.lignebleu {
+    background-color: skyblue;
+}
+.equipe {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    width: 33.5%;
+    text-align: center;
+}
+.vs {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    width: 3%;
+    text-align: center;
+}
+.date {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    width: 20%;
+    text-align: center;
+    
+}
+th {
+    text-align: center;
+    width: 100%;
+    border: 1px black solid;
+    background-color: blue;
+    font-size: 30px;
+}
+table {
+    border-collapse: collapse;
+    margin: 100px 30% 100px 30%;
+}
+#derlignA {
+    border-bottom: 1px black solid;
+    background-color: skyblue;
+}
+#derlignB {
+    border-bottom: 1px black solid;
+    background-color: skyblue;
+}
+/*************************************clubs*************************/
+iframe {
+    width: 100%; 
+    margin-top: 100px;
+}
+#rejoin {
+    text-align: right;
 }
