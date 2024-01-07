@@ -75,7 +75,7 @@ header li a {
 }
 #imagepricipale {
     padding-top: 60px;
-    background: url(image/font.jpg) no-repeat fixed 50% 50%;
+    background: url(font.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
     height: 799px;
     
@@ -115,10 +115,10 @@ header li a {
     padding-top: 60px;
 }
 #flag {
-    background: url(image/flag.jpg);
+    background: url(flag.jpg);
 }
 #cheerleading {
-    background: url(image/cheer.jpg);
+    background: url(cheer.jpg);
     
 }
 #autresport li {
